@@ -42,7 +42,7 @@ main{
     display: flex;
     justify-content: space-between;
     padding: 0px 200px;
-    height: calc(100vh - 80px);
+    height: calc(100svh - 80px);
     align-items: center;
 
 }
