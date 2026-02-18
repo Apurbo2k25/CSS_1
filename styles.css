@@ -4,10 +4,9 @@
     font-family: sans-serif;
 
 }
-
 header{
    
-    height: 70px;
+    height: 80px;
     display: flex;      
     align-items: center;
     gap: 50px;
@@ -38,17 +37,22 @@ header{
     background-color: #BDE8F5;
     color:blue;
 }
-main{
+body, html{
+    height: 100%;
+    margin: 0;
+    overflow-y: hidden;
+  }
+  
+  main{
     display: flex;
     justify-content: space-between;
-    padding: 0px 200px;
-    height: calc(100vh - 80px);
     align-items: center;
-
-}
+    padding: 0 200px;
+    height: 88vh;      /* full viewport height */
+  }
 .left{
   
-    font-size: 30px;
+    font-size: 25px;
 }
 .first{
     color:#1A3263;
